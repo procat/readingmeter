@@ -1,0 +1,5 @@
+#IP METERID
+127.0.0.1 6
+127.0.0.2 7
+#PROXY
+http://proxyid:proxypassword@proxyip:proxyport
