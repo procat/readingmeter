@@ -7,8 +7,8 @@ import math
 
 class Monitor:
   def __new__(self):
-		self.URL = "http://localhost/fiee/save_data_umg.php"
-		self.URL_LOCAL = "http://localhost/fiee/save_data_local.php"
+		self.URL = "/save_data_umg.php"
+		self.URL_LOCAL = "/save_data_local.php"
 		self.JSON = [
 		"json.do?_ULN[0..3],_ULN_AVG[0..3],_ULN_MIN[0..3],_ULN_MIN_T[0..3],_ULN_MAX[0..3],_ULN_MAX_T[0..3],_ULL[0..2],_ULL_AVG[0..2],_ULL_MIN[0..2],_ULL_MIN_T[0..2],_ULL_MAX[0..2],_ULL_MAX_T[0..2],_FREQ,_FREQ_AVG,_FREQ_MIN,_FREQ_MIN_T,_FREQ_MAX,_FREQ_MAX_T,_N,_N_AVG,_N_MIN,_N_MIN_T,_N_MAX,_N_MAX_T,_M,_M_AVG,_M_MIN,_M_MIN_T,_M_MAX,_M_MAX_T,_G,_G_AVG,_G_MIN,_G_MIN_T,_G_MAX,_G_MAX_T",
 		"json.do?_ILN[0..3],_ILN_AVG[0..3],_ILN_AVG_MAX[0..3],_ILN_AVG_MAX_T[0..3],_ILN_MAX[0..3],_ILN_MAX_T[0..3],_THD_ILN[0..3],_THD_ILN_AVG[0..3],_THD_ILN_AVG_MAX[0..3],_THD_ILN_AVG_MAX_T[0..3],_THD_ILN_MAX[0..3],_THD_ILN_MAX_T[0..3],_IN,_IN_AVG,_IN_MAX,_IN_MAX_T,_IM,_IM_AVG,_IM_MAX,_IM_MAX_T,_IG,_IG_AVG,_IG_MAX,_IG_MAX_T",
